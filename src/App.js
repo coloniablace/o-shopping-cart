@@ -13,10 +13,7 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route
-              path="http://coloniablace.github.io/o-shopping-cart"
-              element={<Shop />}
-            />
+            <Route path="/" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
