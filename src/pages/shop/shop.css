@@ -1,5 +1,5 @@
 .shopTitle {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   font-size: 40px;
 }
@@ -13,7 +13,7 @@
 
 .product {
   border-radius: 15px;
-  width: 300px;
+  width: 250px;
   height: 350px;
   margin: 100px;
   display: flex;
@@ -24,6 +24,8 @@
 
 .product img {
   width: 400px;
+  border: 1px solid #00235b;
+  border-radius: 20px;
 }
 
 .product .description {
